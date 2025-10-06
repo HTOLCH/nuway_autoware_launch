@@ -1,0 +1,79 @@
+sensor_kit_base_link:
+  camera_front:
+    x: 1.45
+    y: 0.0
+    z: 2.0
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  camera_rear:
+    x: -1.45
+    y: 0.0
+    z: 2.0
+    roll: 0.0
+    pitch: 0.0
+    yaw: 3.14159
+  imu_link:
+    x: 0.0
+    y: 0.0
+    z: 2.1
+    roll: 3.14159
+    pitch: 0.0
+    yaw: 3.14159
+  lidar_velodyne_front:
+    x: 1.6
+    y: 0.0
+    z: 0.9
+    roll: -0.0044
+    pitch: 0.1657
+    yaw: -0.0007
+  lidar_velodyne_rear:
+    x: -1.6
+    y: 0.0
+    z: 0.9
+    roll: -0.009
+    pitch: 0.1343
+    yaw: 3.1414
+  lidar_localisation_front:
+    x: 0.0
+    y: 0.0
+    z: 2.3
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  lidar_localisation_rear:
+    x: -0.4
+    y: 0.0
+    z: 2.3
+    roll: 0.0
+    pitch: 0.0
+    yaw: 3.19395
+  lidar_safety_front_left:
+    x: 1.875
+    y: 0.9125
+    z: 0.25
+    roll: 3.14159
+    pitch: 0.0
+    yaw: 0.785398
+  lidar_safety_front_right:
+    x: 1.875
+    y: -0.9125
+    z: 0.25
+    roll: 3.14159
+    pitch: 0.0
+    yaw: 5.49779
+  lidar_safety_rear_right:
+    x: -1.875
+    y: -0.9125
+    z: 0.25
+    roll: 3.14159
+    pitch: 0.0
+    yaw: 3.92699
+  lidar_safety_rear_left:
+    x: -1.875
+    y: 0.9125
+    z: 0.25
+    roll: 3.14159
+    pitch: 0.0
+    yaw: 2.35619
+
