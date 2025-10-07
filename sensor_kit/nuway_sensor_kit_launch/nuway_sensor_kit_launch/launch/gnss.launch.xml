@@ -20,7 +20,8 @@
 
     <!-- Septentrio GNSS Driver -->
     <group if="$(eval &quot;'$(var launch_driver)' and '$(var gnss_receiver)'=='septentrio'&quot;)">
-      <include file="$(find-pkg-share septentrio_gnss_driver)/launch/mosaic_x5_rover.launch.xml"/>
+      <!-- old reference:    <include file="$(find-pkg-share septentrio_gnss_driver)/launch/mosaic_x5_rover.launch.xml"/> -->
+      <include file="$(find-pkg-share septentrio_gnss_driver)/launch/rover.launch.py"/>
     </group>
 
     <!-- NavSatFix to MGRS Pose -->
